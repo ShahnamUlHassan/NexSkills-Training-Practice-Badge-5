@@ -1,0 +1,17 @@
+#ab{
+    background-color: aliceblue;
+}
+.ab1{
+    background-color: olive;
+}
+.ab2:hover{
+    background-color: azure;
+    border: 2px solid green;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(105, 78, 26);
+}
