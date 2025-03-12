@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px){
+    h1{
+        background-color: rgb(167, 173, 179);
+        visibility: none;
+        border: 2px solid green;
+        padding: 16px;
+        margin: 16px;
+        text-align: center;
+        font-size: large;
+        color: aquamarine;
+    }
+}
+@media only screen and (max-width:600px) {
+     h2:hover{
+        background-color: blueviolet;
+        border: 2px solid rosybrown;
+        padding: 16px;
+        margin: 16px;
+        text-align: center;
+        font-size: 26px;
+        color: turquoise;
+     }
+}
+.text:focus{
+    background-color: cadetblue;
+}
+.text1{
+    background-color: bisque;
+}
+h3::first-letter{
+    color: saddlebrown;
+}
+h4::first-line{
+    color: dimgray;
+}
+.link:active{
+    background-color: darkseagreen;
+}
+.link:visited{
+    background-color: blue;
+}
+.link:disabled{
+    background-color: aliceblue;
+}
